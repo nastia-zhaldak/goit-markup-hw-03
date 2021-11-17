@@ -76,7 +76,7 @@ body {
   color: var(--accent-color);
 }
 .page-header {
-  border-bottom: 1px solid #ececec;
+  border: 1px solid #ececec;
 }
 .header-list {
   display: flex;
@@ -208,13 +208,13 @@ body {
   color: var(--main-text-color);
 }
 .priority-item {
+  width: 270px;
   margin-right: 30px;
 }
 .priority-item:last-child {
   margin-right: 0;
 }
 .work {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 .work-title,
@@ -231,6 +231,7 @@ body {
   display: flex;
 }
 .work-item {
+  width: 370px;
   margin-right: 30px;
 }
 .work-item:last-child {
@@ -257,10 +258,9 @@ body {
   margin-right: 0px;
 }
 .persons-img {
-  margin-bottom: 30px;
+  width: 270px;
 }
 .persons-name {
-  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -274,7 +274,10 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--main-text-color);
-  margin-bottom: 30px;
+}
+.persons-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /* Portfolio */
 .portfolio {
@@ -290,14 +293,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
   background-color: var(--second-background-color);
-  margin-right: 8px;
   border-radius: 4px;
   padding: 6px 22px;
   border: transparent;
 }
 .portfolio-item {
   margin-right: 8px;
-  margin-bottom: 56px;
 }
 .portfolio-item:last-child {
   margin-right: 0;
@@ -314,6 +315,13 @@ body {
 .portfolio-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+}
+.areas-info {
+  padding: 20px;
+}
+.areas-img {
+  width: 370px;
 }
 .project {
   font-weight: 700;
@@ -321,33 +329,25 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
-  margin-top: 20px;
-  padding-left: 20px;
 }
-
 .project-type {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  margin-top: 4px;
-  padding-left: 20px;
 }
 .areas {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -30px;
 }
 .areas-list {
   flex-basis: calc(100 / 3 - 30px);
   margin-right: 30px;
-  margin-top: 30px;
   margin-bottom: 30px;
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
-  padding-bottom: 20px;
 }
 .areas-list:nth-child(3n + 3) {
   margin-right: 0px;
